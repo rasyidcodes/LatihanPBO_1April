@@ -5,7 +5,6 @@ public class Mahasiswa {
     //public String nama = "mr x";
     //public String nama;
     public int nama;
-
     public static void main(String[] args) {
         System.out.println(Mahasiswa.prodi);
         //System.out.println(Mahasiswa.nama);
