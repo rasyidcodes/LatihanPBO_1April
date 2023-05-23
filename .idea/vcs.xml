@@ -5,6 +5,10 @@
     <mapping directory="" vcs="Git" />
 =======
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> ee195623e1d168ba06138e9b9925c979d0c136e7
+>>>>>>> cb774ba8f7b7d092a2cdb5ba8850388661a25976
   </component>
 </project>
