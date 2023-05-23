@@ -19,4 +19,11 @@ public class Kerucut extends Tabung{
         return super. getVolume() / 3;
     }
 
+    @Override
+    public String toString() {
+        return "Tabung{" +
+                "r=" + getR() +
+                ", tinggi=" + getTinggi() +
+                '}';
+    }
 }
