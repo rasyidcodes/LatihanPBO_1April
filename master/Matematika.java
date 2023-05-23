@@ -7,4 +7,9 @@ public class Matematika {
         double miring = a*a + b*b;
         return Math.sqrt(miring);
     }
+
+    public  static  double getLurus(double miring, double a){
+        double b = miring * miring -  a*a;
+        return Math.sqrt(b);
+    }
 }
