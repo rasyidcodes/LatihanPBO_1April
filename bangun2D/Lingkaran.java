@@ -1,5 +1,6 @@
 package bangun2D;
 
+import master.Matematika;
 public class Lingkaran {
     private double phi = 22.0/7;
     private double r;
@@ -17,11 +18,11 @@ public class Lingkaran {
     }
 
     public double getLuas(){
-        return phi*r*r;
+        return Matematika.phi*r*r;
     }
 
     public double getKeliling(){
-        return  2*phi*r;
+        return  2*Matematika.phi*r;
     }
 
     @Override

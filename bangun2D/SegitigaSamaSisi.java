@@ -1,5 +1,7 @@
 package bangun2D;
 
+import master.Matematika;
+
 public class SegitigaSamaSisi extends Segitiga{
 
     public SegitigaSamaSisi(double sisi) {
@@ -7,11 +9,15 @@ public class SegitigaSamaSisi extends Segitiga{
         super.setTinggi(getTinggi());
     }
 
-    @Override
-    public double getTinggi() {
-        double sisi = getAlas();
-        double t = sisi*sisi - (sisi/2)*(sisi/2);
-        return Math.sqrt(t);
+//    @Override
+//    public double getTinggi() {
+//        double sisi = getAlas();
+//        double t = sisi*sisi - (sisi/2)*(sisi/2);
+//        return Math.sqrt(t);
+//    }
+
+    public double getTinggi(){
+        return Matematika.getLurus(getAlas(), getAlas()/2);
     }
 
     @Override
