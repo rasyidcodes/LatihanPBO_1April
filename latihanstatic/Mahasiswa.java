@@ -2,7 +2,9 @@ package latihanstatic;
 
 public class Mahasiswa {
     public static String prodi = "TRPL";
-    public String nama = "mr X";
+    //public String nama = "mr x";
+    //public String nama;
+    public int nama;
 
     public static void main(String[] args) {
         System.out.println(Mahasiswa.prodi);
@@ -16,6 +18,7 @@ public class Mahasiswa {
         System.out.println(st2.prodi);
         System.out.println(st2.nama);
 
+        /*
         st1.prodi = "Teknologi RPL";
         st1.nama = "Agus";
         st2.prodi = "Teknologi Rekayasa Perangkat Lunak";
@@ -26,5 +29,12 @@ public class Mahasiswa {
 
         System.out.println(st2.prodi);
         System.out.println(st2.nama);
+
+        Mahasiswa.prodi = "Software Engineering Technology";
+        System.out.println(st1.prodi);
+        System.out.println(st1.nama);
+
+        System.out.println(st2.prodi);
+        System.out.println(st2.nama); */
     }
 }
